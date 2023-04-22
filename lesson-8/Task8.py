@@ -7,16 +7,17 @@ import csv
 Задание 1
 '''
 dict_ = {0: 0, 1: 2, 3: 4}
-key = 5
+
 
 def funk(dict_, key):
     try:
         return dict_[key]
     except:
-        print("None")
+        return None
 
 
-funk(dict_, key)
+print(funk(dict_, 5))
+print(funk(dict_, 0))
 '''
    Работа с файлами 
 '''
