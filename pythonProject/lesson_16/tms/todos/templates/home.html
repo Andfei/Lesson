@@ -1,0 +1,11 @@
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>TODOS</h1>
+    {% for todo in todos %}
+     <p>UserId: {{todo.userId}} Id: {{todo.id}} Title: {{todo.title}} Completed: {{todo.completed}}</p>
+ {% endfor %}
+</body>
+</html>
