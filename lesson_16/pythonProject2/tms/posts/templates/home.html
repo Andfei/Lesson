@@ -1,0 +1,11 @@
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>TODOS</h1>
+    {% for post in posts %}
+     <p>UserId: {{post.userId}} Id: {{post.id}} Title: {{post.title}} Completed: {{post.completed}}</p>
+ {% endfor %}
+</body>
+</html>
